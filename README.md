@@ -21,5 +21,5 @@ Following a coding standard aligns with industry best practices. Adhering to rec
   + Single  ***`line comments`*** for a block code should be aligned with the code they are meant for. 
   + There should be comments for all major variables explaining what they represent.
   + Use CAPITAL letters for comments ***`(e.g //CHECK IF ALL USER INPUTS ARE SELECTED)`
-  + Our Project Must contain this file called [h.comf] ***auxiliaries.php***, which contains all the custom functions/methods and should be required_once in the necessary files.
+  + Our Project Must contain this file called [h.comf] (***auxiliaries.php***), which contains all the custom functions/methods and should be required_once in the necessary files.
   + In a case of code reusabilty, use required_once over the others.
