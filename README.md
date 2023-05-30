@@ -33,3 +33,26 @@ Following a coding standard aligns with industry best practices. Adhering to rec
   + Constant names should all be ***uppercase***
   + Method/Function names should be a verb following ***Camel Casing*** 
    ` Example:  createUers(arg1, arg2), checkUserLoggedIn(userID);`
+
+## Example of our query
+This code Example is adding user into a database
+`/* WRITE THE QUERY IN CAPS AND USE CAMEL CASING FOR THE VARIABLE THATS STORES THE QUERY */
+$createUser = “INSERT INTO table_users(col1, col2, col3) VALUES(:col1, :col2, :col3)”;
+//USE PDO PREPARE STATEMENT TO SQL INJECTION
+$statement = $con->prepare($createUser);
+/* GET THE QUERY STATUS, EITHER CORRECT OR WRONG AND STORE IN RESULTS VARIABLE */
+$results = $statement->execute(
+[
+	“:col1” => $var1,
+	“:col2” => $var2,
+	“:col3” => $var3,
+
+
+]
+);`
+
+`// GET ALL THE AFFECTED ROWS 
+$rows = $statement->rowCount();
+
+//FETCH ALL AFFECTED ROWS AND COLUMNS
+$columns = $statement->fetchAll();`
