@@ -22,4 +22,4 @@ Following a coding standard aligns with industry best practices. Adhering to rec
   + There should be comments for all major variables explaining what they represent.
   + Use CAPITAL letters for comments ``(e.g //CHECK IF ALL USER INPUTS ARE SELECTED)``
   + Our Project Must contain this file called [auxiliaries.php,](https://github.com/Namibra-Devs/AuxilliariesPHP.git) :+1: which contains all the custom functions/methods and should be required_once in the necessary files.
-  + In a case of code reusabilty, use required_once over the others.
+  + In a case of code reusabilty, use `required_once` over the others.
