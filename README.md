@@ -25,11 +25,11 @@ Following a coding standard aligns with industry best practices. Adhering to rec
   + In a case of code reusabilty, use `required_once` over the others.
 
 # Naming Convention
-  + Package names should be lowercase
-  + Variable names should be noun and should start with Lowercase (e,g userpassword, useremail, etc)
+  + Package names should be ***lowercase***
+  + Variable names should be noun and should start with ***Lowercase*** (`e,g userpassword, useremail, etc`)
   + All SQL Statements should be a verb and in CAPS and variable should be in Camel Casing
-    Example: $createUser = “INSERT INTO tablename(col1,col2) VALUES(:col1, :col2);
-    $getAllUsers = “SELECT * FROM users WHERE id = 1”
-  + Constant names should all be uppercase
-  + Method/Function names should be a verb following Camel Casing 
-    Example:  createUers(arg1, arg2), checkUserLoggedIn(userID);
+    `Example: $createUser = “INSERT INTO tablename(col1,col2) VALUES(:col1, :col2);
+    $getAllUsers = “SELECT * FROM users WHERE id = 1”`
+  + Constant names should all be ***uppercase***
+  + Method/Function names should be a verb following ***Camel Casing*** 
+   ` Example:  createUers(arg1, arg2), checkUserLoggedIn(userID);`
